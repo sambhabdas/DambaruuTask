@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "dambaruuTask",
+    "slug": "dambaruuTask",
+    "version": "1.0.0",
+    "orientation": [
+      "portrait",
+      "landscape"
+    ],
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "DEFAULT"
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sambhab.dambaruuTask"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "66228f64-f7e0-410f-941d-c7adead2e392"
+      }
+    }
+  }
+}
